@@ -1,0 +1,27 @@
+1)Open up a terminal window ([Ctrl]+[Alt]+[t] does the trick nicely)
+
+2)Issue the command sudo apt-get install conky-all
+
+3)Type your sudo password and hit Enter
+
+4)When prompted, accepted the installation by typing y
+
+5)Allow the installation to complete
+
+AFTER:
+Conky relies on the .conkyrc file for configuration options. Out of the box, this file is not created. Because of this, what Conky does is read the /etc/conky/conky.config file (when no ~/.conkyrc file is present). When you run Conky without a .conkyrc file in your home directory, a standard Conky theme appears. In your .conkyrc file add my config .conkyrc and CTRL + S.
+
+--------------------------------------------------------------------------------------------------
+
+1) Откройте окно терминала ([Ctrl] + [Alt] + [t] хорошо справляется с задачей)
+
+2) Выполните команду sudo apt-get install conky-all
+
+3) Введите свой пароль sudo и нажмите Enter
+
+4) При появлении запроса подтвердите установку, нажав Д или Y
+
+5) Разрешить установку для завершения
+
+ПОСЛЕ:
+Conky полагается на файл .conkyrc для параметров конфигурации. Из коробки этот файл не создан. Из-за этого Conky читает файл /etc/conky/conky.config (когда файл ~ / .conkyrc отсутствует). Когда вы запускаете Conky без файла .conkyrc в вашем домашнем каталоге, появляется стандартная тема Conky. В вашем файле .conkyrc добавьте мой конфиг .conkyrc и CTRL + S.
